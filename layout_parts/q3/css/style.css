@@ -1,35 +1,35 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-.table1 {
+.tablebox {
   border: solid #dedede 1px;
   width: 100%;
   table-layout: fixed;
 }
 
-.table1 th {
+.tablebox th {
   background-color: #2244aa;
   color: #ffffff;
   font-size: 18px;
   line-height: 26px;
 }
 
-.table1 td {
+.tablebox td {
   font-size: 16px;
   line-height: 22px;
 }
 
-.table1 th, .table1 td {
+.tablebox th, .tablebox td {
   padding: 10px;
   text-align: center;
   border: solid #dedede 1px;
 }
 
-.table1 tr:nth-child(2n+1) {
+.tablebox tr:nth-child(2n+1) {
   background-color: #ecf1f2;
 }
 
-.table1 tr:last-child {
+.tablebox tr:last-child {
   border-top: dashed #000 2px;
 }
 

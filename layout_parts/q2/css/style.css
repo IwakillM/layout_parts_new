@@ -7,13 +7,13 @@
   padding: 20px;
 }
 
-.img1 {
+.imgleft {
   margin-right: 20px;
   margin-bottom: 10px;
   float: left;
 }
 
-.img2 {
+.imgright {
   margin-left: 20px;
   margin-bottom: 10px;
   float: right;

@@ -6,12 +6,12 @@
   text-align: center;
 }
 
-.longbox1 {
+.longbox {
   width: 100%;
   display: table;
 }
 
-.fixed1, .variable1, .fixed2 {
+.upbox {
   display: table-cell;
   padding: 20px;
 }
@@ -31,13 +31,11 @@
   width: 100px;
 }
 
-.longbox2 {
-  width: 100%;
-  display: table;
+.longbox:last-child {
   margin-top: 20px;
 }
 
-.variable2, .variable3, .fixed3 {
+.downbox {
   display: table-cell;
   padding: 20px;
 }

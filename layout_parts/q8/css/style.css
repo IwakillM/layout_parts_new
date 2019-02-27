@@ -188,8 +188,6 @@
   appearance: none;
 }
 
-.selectber {}
-
 .margin {
   margin-top: 20px;
 }
@@ -250,6 +248,13 @@
   line-height: 26px;
   cursor: pointer;
   border: none;
+}
+
+.submits:active {
+  background-color: #FFF;
+  color: #00BCD4;
+  border-radius: 5px;
+  border:none;
 }
 
 .align {

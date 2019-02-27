@@ -1,15 +1,23 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-.boxs p {
-  text-align: center;
-}
-
 .boxs {
   background-color: #e6f2ff;
   width: 90px;
   padding: 10px 0px;
-  margin: 0 auto;
+  text-align: center;
+}
+
+.boxer {
+  text-align: center;
+}
+
+.boxleft {
+  display: inline-block;
+}
+
+.boxright p {
+  margin: auto;
 }
 
 #table {
