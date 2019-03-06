@@ -11,7 +11,11 @@
   display: table;
 }
 
-.upbox {
+.longbox:last-child {
+  margin-top: 20px;
+}
+
+.wrapbox {
   display: table-cell;
   padding: 20px;
 }
@@ -29,15 +33,6 @@
 .fixed2 {
   background-color: #b6d8ed;
   width: 100px;
-}
-
-.longbox:last-child {
-  margin-top: 20px;
-}
-
-.downbox {
-  display: table-cell;
-  padding: 20px;
 }
 
 .variable2 {

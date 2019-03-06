@@ -1,19 +1,19 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-.box {
+.wapbox {
   padding: 20px; /* 仮置き*/
   background-color: #eff3f4;
 }
 
 .encircle {
-  width: 270px;
   background-color: #3274ae;
   margin-left: 20px;
   float: left;
+  padding: 20px;
 }
 
-.box .encircle:first-child {
+.wapbox .encircle:first-child {
   margin-left: 0px;
 }
 
@@ -21,7 +21,6 @@
   width: 170px;
   background-color: #eaf4ff;
   border: solid 10px #022336;
-  margin: 20px;
   padding: 20px;
 }
 
@@ -30,7 +29,7 @@
   line-height: 16px;
 }
 
-.clearfix::after {
+.clearfix:after {
   display: block;
   content: "";
   clear: both;

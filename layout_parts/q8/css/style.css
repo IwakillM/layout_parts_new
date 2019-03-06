@@ -30,10 +30,8 @@
   border-radius: 3px;
   font-size: 16px;
   padding: 0 15px;
-  border-style: none;
   display: inline-block;
   margin-left: 10px;
-  outline: none;
   line-height: 26px;
 }
 
@@ -41,10 +39,8 @@
   border-radius: 5px;
   font-size: 20px;
   padding: 0 20px;
-  border-style: none;
   display: inline-block;
   margin-left: 10px;
-  outline: none;
   line-height: 32px;
 }
 
@@ -52,17 +48,9 @@
   border-radius: 7px;
   font-size: 24px;
   padding: 0 25px;
-  border-style: none;
   display: inline-block;
   margin-left: 10px;
-  outline: none;
   line-height: 38px;
-}
-
-.clearfix::after {
-  content: "";
-  display: block;
-  clear: both;
 }
 
 .wapper {
@@ -70,7 +58,6 @@
   background-color: #ECF1F2;
   padding: 20px;
   margin: 0 auto;
-  height: 330px;
 }
 
 .titletext {
@@ -103,10 +90,10 @@
 }
 
 .form-text {
-  float: left;
-  width: 100px;
   line-height: 25px;
   text-align: right;
+  float: left;
+  width: 100px;
 }
 
 .inputs {
@@ -118,6 +105,11 @@
   box-sizing: border-box;
   border: none;
   float: right;
+}
+
+input:focus {
+  box-shadow: 0px 0px 3px 1px #00BCD4;
+  outline: none;
 }
 
 .contener {
@@ -186,6 +178,10 @@
   -webkit-appearance: none;
   -moz-apperance: none;
   appearance: none;
+}
+
+select:focus {
+  outline: none;
 }
 
 .margin {
@@ -281,6 +277,11 @@ textarea {
   box-sizing: border-box;
   resize: none;
   border: none;
+}
+
+textarea:focus {
+  box-shadow: 0px 0px 3px 1px #00BCD4;
+  outline: none;
 }
 
 /* 回答はここに書いてね */

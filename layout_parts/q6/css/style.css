@@ -20,24 +20,24 @@
   margin: auto;
 }
 
-#table {
+.table {
   display: table;
 }
 
-.table {
+.tables {
   display: table-cell;
   height: 100%;
   vertical-align: middle;
   text-align: center;
 }
 
-.table p {
+.tables p {
   display: inline-block;
   padding: 10px;
   background-color: #fff;
 }
 
-#flex {
+.flex {
   display: flex;
   align-items: center;
   justify-content: center;

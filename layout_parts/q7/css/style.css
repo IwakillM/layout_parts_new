@@ -12,11 +12,6 @@
   margin-left: 0;
 }
 
-.innerline {
-  height: auto;
-  overflow: hidden;
-}
-
 .clearfix::after {
   content: "";
   display: block;
@@ -69,13 +64,13 @@
   box-sizing: border-box;
 }
 
-.margininline1 {
+.margininline-left {
   width: 300px;
   font-size: 16px;
   display: inline-block;
 }
 
-.margininline2 {
+.margininline-right {
   display: inline-block;
   vertical-align: top;
   box-sizing: border-box;
